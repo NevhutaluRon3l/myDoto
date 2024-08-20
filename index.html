@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="app.js"></script>
+    <title>My Todo App</title>
+</head>
+<header>
+    <h2>MY TO-DO APP</h2>
+</header>
+<body>
+    <div class="main">
+        <div class="Container">
+            <!---Input area-->
+            <h4>Task's Input</h4>
+                <label for="text">
+                    <input type="text" name="text" id="Short-description" placeholder="Add Title">
+                    <textarea name="" id="Long-description" placeholder="Description"></textarea>
+                    <!--- Save Button-->
+                        <button onclick="save()" id="Save-button">Save </button>
+  
+                </label>
+                
+        </div>
+    <!---The side section-->
+        <div class="Other-section">
+            
+            <h3>Task's</h3>
+            <hr>
+            <!---Main section-->
+            <div class="Status">
+                <div><h5>Added Task's</h5></div>
+                <div class="Status-section"><h5>Status</h5></div> 
+                
+            </div>
+
+            <!---Added tasked-->
+                    <div class="Addedtask">
+                        
+                    </div>
+                    
+           
+
+        </div>
+    
+    </div>
+    
+</body>
+</html>
